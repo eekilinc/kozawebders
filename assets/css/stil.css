@@ -253,14 +253,46 @@ body {
     height: 50px;
     background-color: #000;
     color: white;
+    box-shadow: gray 0 0 3px 0;
 
 
 }
 
 .ust1,
-ust2,
-ust3 {
+.ust2,
+.ust3 {
+    box-shadow: white 1px 1px 1px 1px;
+    border-radius: 3px;
+    border: 1px solid white;
     min-height: 200px;
+    width: 27%;
+    margin: 20px;
+    float: left;
+    color: white;
+    padding: 10px;
+}
+
+.ust3 {
+    float: right;
+    margin: 20px;
+}
+
+.ust1 div:nth-child(1) {
+    border-bottom: 1px dotted white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ust2 div:nth-child(1) {
+    border-bottom: 1px dotted white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ust3 div:nth-child(1) {
+    border-bottom: 1px dotted white;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .ic1 {
