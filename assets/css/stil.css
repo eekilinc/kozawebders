@@ -25,7 +25,7 @@ body {
 
 #footer {
     background-color: #030c21;
-    height: 200px;
+    min-height: 50px;
 }
 
 #submain {
@@ -247,4 +247,48 @@ body {
 
 .turuncu {
     background-color: orange;
+}
+
+.alt {
+    height: 50px;
+    background-color: #000;
+    color: white;
+
+
+}
+
+.ust1,
+ust2,
+ust3 {
+    min-height: 200px;
+}
+
+.ic1 {
+    float: left;
+    margin: 5px;
+    margin: 15px 20px 0 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ic2 {
+    float: right;
+    margin: 5px 20px 0 20px;
+}
+
+.ic1 a {
+    color: yellow;
+    text-decoration: none;
+
+}
+
+
+.altresim {
+    width: 40px;
+    height: 40px;
+
+}
+
+.olusturulma {
+    margin-left: 20px;
+    color: gray;
 }
